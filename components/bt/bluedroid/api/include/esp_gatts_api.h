@@ -28,7 +28,7 @@ typedef enum {
     ESP_GATTS_REG_EVT                = 0,       /*!< When register application id, the event comes */
     ESP_GATTS_READ_EVT               = 1,       /*!< When gatt client request read operation, the event comes */
     ESP_GATTS_WRITE_EVT              = 2,       /*!< When gatt client request write operation, the event comes */
-    ESP_GATTS_EXEC_WRITE_EVT         = 3,       /*!< When gatt client request execute write, the event comes */
+    ESP_GATTS_EXEC_WRITE_EVT         = 3,       /*!< When gatt client execute write, the event comes */
     ESP_GATTS_MTU_EVT                = 4,       /*!< When set mtu complete, the event comes */
     ESP_GATTS_CONF_EVT               = 5,       /*!< When receive confirm, the event comes */
     ESP_GATTS_UNREG_EVT              = 6,       /*!< When unregister application id, the event comes */
